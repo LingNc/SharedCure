@@ -1,0 +1,6 @@
+name: SharedCure
+main: com.lingnc.sharedcure.SharedCurePlugin
+version: 1.0.0
+api-version: "1.20"
+author: lingnc
+description: Share villager cure discounts with every player on the server.
