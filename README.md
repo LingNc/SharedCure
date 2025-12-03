@@ -7,7 +7,7 @@ SharedCure is a Paper plugin that implements server-wide villager discount shari
 ## Features
 
 - **PDC three-state management**: Each villager receives a `discount_status` tag (PDC) indicating `UNKNOWN`, `NOT_CURED`, or `CURED` to minimize server-wide operations.
-- **Just-in-time (JIT) reputation injection**: When a player interacts with a `CURED` villager, the plugin injects `MAJOR_POSITIVE` reputation for the interacting player's UUID if needed so the discount appears immediately in the trade GUI.
+- **Instant Reputation Injection**: When a player interacts with a villager in the `CURED` state, the plugin will, if necessary, instantly inject `MAJOR_POSITIVE` reputation for the player's UUID, ensuring that the discount is immediately reflected in the trading interface. This only affects the cured reputation (`MAJOR_POSITIVE`) and does not impact other types of reputation.
 - **Legacy villager backfill**: On plugin load and chunk load, villagers that lack the plugin tag are deep-checked for existing reputations (gossip) and tagged accordingly to support older worlds.
 - **Cure capture**: The plugin listens for `EntityTransformEvent` and marks zombie villager conversions as `CURED` instantly.
 
