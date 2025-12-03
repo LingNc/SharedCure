@@ -1,6 +1,6 @@
-# [中文说明 (Chinese README)](README_zh.md)
-
 # SharedCure
+
+English | [简体中文](README_zh.md)
 
 SharedCure is a Paper plugin that implements server-wide villager discount sharing using a small tag (PDC) and Just-In-Time reputation injection approach. When a villager has been cured by any player, this plugin ensures other players who interact with that villager receive the highest trade discount (MAJOR_POSITIVE) without requiring bulk updates across all players.
 

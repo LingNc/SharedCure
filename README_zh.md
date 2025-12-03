@@ -1,5 +1,7 @@
 # SharedCure
 
+[English](README.md) | 简体中文
+
 SharedCure 是一个基于 Paper API 开发的服务器插件，通过“标记 + 懒加载”机制，实现任何玩家治愈过的村民都为全服玩家共享最高折扣。
 
 ## 功能特性
