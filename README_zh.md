@@ -21,9 +21,9 @@ SharedCure 是一个基于 Paper API 开发的服务器插件，通过“标记 
 
 ## 构建与使用
 
-1. 安装 JDK 21 及 Maven 3.9+。
+1. 安装 JDK 25 及 Maven 3.9+。
 2. 在仓库根目录执行：
    ```bash
    mvn clean package
    ```
-3. 生成的插件位于 （例如：`target/sharedcure-1.0.0-SNAPSHOT-shaded.jar`），将其放入 Paper / Spigot 1.21.x 服务器的 `plugins/` 目录并重新启动服务器。
+3. 生成的插件位于 `target/sharedcure-1.1.0-SNAPSHOT.jar`，将其放入 Paper 或 Purpur 26.2 服务器的 `plugins/` 目录并重新启动服务器。
