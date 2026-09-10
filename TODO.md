@@ -6,9 +6,9 @@
 
 包名结构: com.lingnc.sharedcure
 
-目标平台: Paper / Spigot (兼容 Minecraft 1.21.x)
+目标平台: Paper / Purpur (兼容 Minecraft 26.2)
 
-开发语言: Java 21 (推荐 1.21 环境)
+开发语言: Java 25
 
 ## 1. 项目概述 (Overview)
 
@@ -98,14 +98,14 @@ SharedCure 是一个旨在优化多人服务器经济体验的插件。
 
 ### 4.1 Maven 依赖 (pom.xml)
 
-请确保使用 Paper API 以获得更好的声望操作支持。
+请确保使用 Purpur API（兼容 Paper API）以获得更好的声望操作支持。
 
 ```
 <dependencies>
     <dependency>
-        <groupId>io.papermc.paper</groupId>
-        <artifactId>paper-api</artifactId>
-        <version>1.21.1-R0.1-SNAPSHOT</version> <!-- 请根据实际版本调整 -->
+        <groupId>org.purpurmc.purpur</groupId>
+        <artifactId>purpur-api</artifactId>
+        <version>26.2.build.2632-stable</version> <!-- 请根据实际版本调整 -->
         <scope>provided</scope>
     </dependency>
 </dependencies>

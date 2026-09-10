@@ -23,7 +23,7 @@ SharedCure is a Paper plugin that implements server-wide villager discount shari
 ## Build & Usage
 
 Requirements:
-- JDK 21
+- JDK 25
 - Maven 3.9+
 
 Build:
@@ -34,5 +34,5 @@ mvn clean package
 
 Install:
 
-Copy the generated shaded jar (e.g., `target/sharedcure-1.0.0-SNAPSHOT-shaded.jar`) to the `plugins/` folder of your Paper/Spigot 1.21.x server and restart it.
+Copy the generated jar (`target/sharedcure-1.1.0-SNAPSHOT.jar`) to the `plugins/` folder of your Paper or Purpur 26.2 server and restart it.
 
